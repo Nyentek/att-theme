@@ -1,5 +1,5 @@
 @font-face {
-	font-family: "Aleck";
+	font-family: "ATT Aleck Sans";
 	font-weight: 300;
 	font-style: normal;
 	src: url('https://www.att.com/mktg/v1/_next/static/fonts/ATTAleckSans_W_Lt.woff2') format('woff2'),
@@ -7,15 +7,15 @@
 }
 
 @font-face {
-	font-family: "Aleck";
+	font-family: "ATT Aleck Sans";
 	font-weight: 400;
 	font-style: normal;
-	src: url('https://www.att.com/mktg/v1/_next/static/fonts/ATTAleckSans_W_Rg.woff2') format('woff2'),
-	url('https://www.att.com/mktg/v1/_next/static/fonts/ATTAleckSans_W_Rg.woff') format('woff');
+	src: url($AleckSans400_woff2) format('woff2'),
+	url($AleckSans400_woff) format('woff');
 }
 
 @font-face {
-	font-family: "Aleck";
+	font-family: "ATT Aleck Sans";
 	font-weight: 400;
 	font-style: italic;
 	src: url('https://www.att.com/mktg/v1/_next/static/fonts/ATTAleckSans_W_It.woff2') format('woff2'),
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-	font-family: "Aleck";
+	font-family: "ATT Aleck Sans";
 	font-weight: 500;
 	font-style: normal;
 	src: url('https://www.att.com/mktg/v1/_next/static/fonts/ATTAleckSans_W_Md.woff2') format('woff2'),
@@ -31,7 +31,7 @@
 }
 
 @font-face {
-	font-family: "Aleck";
+	font-family: "ATT Aleck Sans";
 	font-weight: 700;
 	font-style: normal;
 	src: url('https://www.att.com/mktg/v1/_next/static/fonts/ATTAleckSans_W_Bd.woff2') format('woff2'),
@@ -39,7 +39,7 @@
 }
 
 :root {
-	font-family: "Aleck", Verdana, sans-serif;
+	font-family: "ATT Aleck Sans", Verdana, sans-serif;
 	font-weight: 400;
 }
 
@@ -47,7 +47,7 @@ body input,
 body button,
 body select,
 body textarea {
-	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-family: "ATT Aleck Sans", Verdana, sans-serif;
 }
 
 @mixin boxShadow {
