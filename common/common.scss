@@ -38,8 +38,8 @@
 	url('https://www.att.com/mktg/v1/_next/static/fonts/ATTAleckSans_W_Bd.woff') format('woff');
 }
 
-:root {
-	font-family: "ATT Aleck Sans", Verdana, sans-serif;
+:root, html {
+	font-family: "ATT Aleck Sans", Verdana, sans-serif !important;
 	font-weight: 400;
 }
 
