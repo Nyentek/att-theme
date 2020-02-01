@@ -2,8 +2,8 @@
 	font-family: "ATT Aleck Sans";
 	font-weight: 300;
 	font-style: normal;
-	src: url($AleckSans300_woff2) format('woff2'),
-	url($AleckSans300_woff) format('woff');
+	src: url('https://www.att.com/mktg/v1/_next/static/fonts/ATTAleckSans_W_Lt.woff2') format('woff2'),
+	url('https://www.att.com/mktg/v1/_next/static/fonts/ATTAleckSans_W_Lt.woff') format('woff');
 }
 
 @font-face {
@@ -18,24 +18,24 @@
 	font-family: "ATT Aleck Sans";
 	font-weight: 400;
 	font-style: italic;
-	src: url($AleckSans400i_woff2) format('woff2'),
-	url($AleckSans400i_woff) format('woff');
+	src: url('https://www.att.com/mktg/v1/_next/static/fonts/ATTAleckSans_W_It.woff2') format('woff2'),
+	url('https://www.att.com/mktg/v1/_next/static/fonts/ATTAleckSans_W_It.woff') format('woff');
 }
 
 @font-face {
 	font-family: "ATT Aleck Sans";
 	font-weight: 500;
 	font-style: normal;
-	src: url($AleckSans500_woff2) format('woff2'),
-	url($AleckSans500_woff) format('woff');
+	src: url('https://www.att.com/mktg/v1/_next/static/fonts/ATTAleckSans_W_Md.woff2') format('woff2'),
+	url('https://www.att.com/mktg/v1/_next/static/fonts/ATTAleckSans_W_Md.woff') format('woff');
 }
 
 @font-face {
 	font-family: "ATT Aleck Sans";
 	font-weight: 700;
 	font-style: normal;
-	src: url($AleckSans700_woff2) format('woff2'),
-	url($AleckSans700_woff) format('woff');
+	src: url('https://www.att.com/mktg/v1/_next/static/fonts/ATTAleckSans_W_Bd.woff2') format('woff2'),
+	url('https://www.att.com/mktg/v1/_next/static/fonts/ATTAleckSans_W_Bd.woff') format('woff');
 }
 
 :root, html {

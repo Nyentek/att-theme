@@ -1,8 +1,37 @@
 {
   "name": "AT&T Theme",
-  "about_url": "https://meta.discourse.org/t/material-design-stock-theme/47142",
+  "component": false,
   "license_url": "https://github.com/discourse/material-design-stock-theme/blob/master/LICENSE.txt",
+  "about_url": "https://meta.discourse.org/t/material-design-stock-theme/47142",
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+    "AleckSans400_woff": "assets/AleckSans400_woff.woff",
+    "AleckSans400_woff2": "assets/AleckSans400_woff2.woff2",
+    "AleckSans400i_woff2": "assets/AleckSans400i_woff2.woff2",
+    "AleckSans400i_woff": "assets/AleckSans400i_woff.woff",
+    "A500_woff": "assets/A500_woff.woff",
+    "A700_woff": "assets/A700_woff.woff",
+    "A300_woff": "assets/A300_woff.woff",
+    "A300_woff2": "assets/A300_woff2.woff2",
+    "A500_woff2": "assets/A500_woff2.woff2",
+    "A700_woff2": "assets/A700_woff2.woff2"
+  },
   "color_schemes": {
+    "Neutral": {
+      "primary": "000000",
+      "secondary": "ffffff",
+      "tertiary": "009fdb",
+      "quaternary": "0057b8",
+      "header_background": "333333",
+      "header_primary": "f3f3f3",
+      "highlight": "ffb000",
+      "danger": "ff585d",
+      "success": "91dc00",
+      "love": "af29bb"
+    },
     "Material Teal/Amber": {
       "primary": "212121",
       "secondary": "fafafa",
@@ -63,5 +92,6 @@
       "success": "009900",
       "love": "fa6c8d"
     }
-  }
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }
