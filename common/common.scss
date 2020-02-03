@@ -85,11 +85,10 @@ body textarea {
 	top: 5.25rem;
 	left: 0;
 	right: 0;
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.13);
 
 	.b-header {
 		width: 100%;
-		height: 16rem;
-		margin-bottom: 0;
 		background-color: #fff;
 		color: #354052;
 
@@ -98,22 +97,7 @@ body textarea {
 		}
 
 		.title {
-			float: left;
-			margin-right: 24px;
-
-			a {
-				color: $secondary;
-			}
-
-			&:visited {
-				color: $secondary;
-			}
-
-			.rtl & {
-				float: right;
-				margin-left: 24px;
-				margin-right: 0;
-			}
+			position: fixed;
 		}
 
 
@@ -135,15 +119,7 @@ body textarea {
 			margin-bottom: 0;
 
 			> li > a {
-				color: $secondary;
-				line-height: 22px;
-
-				&:hover {
-					background-color: #0f54af;
-				}
-
 				&.active > a, > a.active {
-					color: $secondary;
 					background-color: $quaternary;
 				}
 			}
