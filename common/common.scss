@@ -50,7 +50,7 @@ body textarea {
 }
 
 .d-header {
-	height: 5.25rem;
+	height: 5rem;
 	background: $header_background;
 	margin-top: 0 !important;
 	box-shadow: none;
@@ -79,6 +79,7 @@ body textarea {
 	top: 5.25rem;
 	left: 0;
 	right: 0;
+	height: 4rem;
 	z-index: 2;
 	box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.08);
 	border-bottom: solid 1px #e6eaee;
@@ -102,12 +103,6 @@ body textarea {
 			}
 		}
 
-
-		#brand-text-logo {
-			line-height: 32px;
-			margin: 0;
-		}
-
 		nav.links {
 			float: left;
 
@@ -121,7 +116,7 @@ body textarea {
 
 			> li > a {
 				color: $primary;
-				padding: 1rem 0;
+				padding: 1.25rem 0;
 				border-bottom: solid 0.25rem transparent;
 				margin-right: 2rem;
 				font-size: 1rem;
@@ -202,6 +197,7 @@ body textarea {
 	background-size: cover;
 	background-position: center;
 	box-sizing: border-box;
+	position: relative;
 	width: 100vw;
 	left: 50%;
 	transform: translateX(-50%);
@@ -212,11 +208,18 @@ body textarea {
 		svg {
 			color: $secondary;
 		}
+
+		&:hover {
+			svg {
+				color: $tertiary;
+			}
+		}
 	}
 
 	#banner-content {
 		text-align: center;
 		color: $secondary;
+
 		h1 {
 			font-weight: 400;
 		}
