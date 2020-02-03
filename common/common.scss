@@ -54,12 +54,15 @@ body textarea {
 	.title {
 		float: left;
 		margin-right: 24px;
+
 		a {
 			color: $secondary;
 		}
+
 		&:visited {
 			color: $secondary;
 		}
+
 		.rtl & {
 			float: right;
 			margin-left: 24px;
@@ -76,6 +79,7 @@ body textarea {
 	nav.links {
 		float: left;
 		margin-top: 0.5rem;
+
 		.rtl & {
 			float: right;
 		}
@@ -83,12 +87,15 @@ body textarea {
 
 	.nav-pills {
 		margin-bottom: 0;
+
 		> li > a {
 			color: $secondary;
 			line-height: 22px;
+
 			&:hover {
 				background-color: #0f54af;
 			}
+
 			&.active > a, > a.active {
 				color: $secondary;
 				background-color: $quaternary;
@@ -99,6 +106,7 @@ body textarea {
 	.panel {
 		float: right;
 		position: relative;
+
 		.rtl & {
 			float: left;
 		}
@@ -109,6 +117,7 @@ body textarea {
 		top: 100%;
 		right: -10px;
 		z-index: 1001;
+
 		.rtl & {
 			right: inherit;
 			left: -10px;
@@ -118,10 +127,12 @@ body textarea {
 	ul.icons {
 		text-align: center;
 		margin: 0 0 0 5px;
+
 		> li {
 			float: left;
 			list-style: none;
 		}
+
 		a, [class^="fa fa-"] {
 			width: 28px;
 			height: 28px;
@@ -130,8 +141,10 @@ body textarea {
 			display: inline-block;
 			margin: 2px;
 		}
+
 		.rtl & {
 			margin: 0 5px 0 0;
+
 			> li {
 				float: right;
 			}
@@ -140,9 +153,11 @@ body textarea {
 
 	.panel > ul.icons {
 		float: right;
+
 		a, [class^="fa fa-"] {
 			color: $secondary;
 		}
+
 		.rtl & {
 			float: left;
 		}
@@ -162,6 +177,25 @@ body textarea {
 	font-weight: 300;
 }
 
-#header {
+.d-header {
+	height: 5.25rem;
 	background: #fff;
+
+	.contents {
+		border-bottom: solid 1px #e6eaee;
+	}
+
+	.title {
+		align-items: stretch;
+	}
+
+	#site-logo {
+		height: 100%;
+	}
+}
+
+.d-header-icons {
+	.d-icon {
+		color: #0568ae;
+	}
 }
