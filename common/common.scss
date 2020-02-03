@@ -42,10 +42,56 @@ body textarea {
 	box-shadow: none;
 }
 
+.headline-wrapper {
+	position: relative;
+	color: white;
+	z-index: 1;
+	top: -14rem;
+	text-align: center;
+	pointer-events: none;
+}
+
+.headline {
+	font-weight: 300;
+}
+
+.d-header {
+	height: 5.25rem;
+	background: #fff;
+	margin-top: 0 !important;
+	box-shadow: none;
+
+	.contents {
+		border-bottom: solid 1px #e6eaee;
+	}
+
+	.title {
+		align-items: stretch;
+	}
+
+	#site-logo {
+		height: 100%;
+	}
+
+	.d-header-icons {
+		.d-icon {
+			color: #0568ae;
+		}
+	}
+}
+
+.brand-header {
+	position: fixed;
+	top: 5.25rem;
+	left: 0;
+	right: 0;
+}
+
 .b-header {
 	width: 100%;
 	height: 16rem;
 	margin-bottom: 0;
+	color: #fff;
 
 	.contents {
 		margin: 2rem 0;
@@ -160,42 +206,6 @@ body textarea {
 
 		.rtl & {
 			float: left;
-		}
-	}
-}
-
-.headline-wrapper {
-	position: relative;
-	color: white;
-	z-index: 1;
-	top: -14rem;
-	text-align: center;
-	pointer-events: none;
-}
-
-.headline {
-	font-weight: 300;
-}
-
-.d-header {
-	height: 5.25rem;
-	background: #fff;
-
-	.contents {
-		border-bottom: solid 1px #e6eaee;
-	}
-
-	.title {
-		align-items: stretch;
-	}
-
-	#site-logo {
-		height: 100%;
-	}
-
-	.d-header-icons {
-		.d-icon {
-			color: #0568ae;
 		}
 	}
 }
