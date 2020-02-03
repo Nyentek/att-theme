@@ -3,6 +3,7 @@
 :root, html {
 	font-family: "Noto Sans", Verdana, sans-serif !important;
 	font-weight: 400;
+	font-size: 16px;
 	letter-spacing: -0.018em;
 	line-height: 1.4142;
 }
@@ -87,13 +88,18 @@ body textarea {
 	top: 5.25rem;
 	left: 0;
 	right: 0;
-	z-index: 2;
-	background-color: #fff;
+	z-index: 1;
 	box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.08);
 
 	.b-header {
 		width: 100%;
+		height: unset;
+		background-color: #fff;
 		color: #354052;
+
+		.contents {
+			margin: 0;
+		}
 
 		.title {
 			position: fixed;
