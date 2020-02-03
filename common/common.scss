@@ -44,7 +44,6 @@ body textarea {
 
 .b-header {
 	width: 100%;
-	background-image: linear-gradient(to right, #0079B1, #009FDB, #00C9FF);
 	height: 16rem;
 	margin-bottom: 0;
 
@@ -150,26 +149,6 @@ body textarea {
 	}
 }
 
-.ember-application .d-header {
-	margin-top: 16rem;
-	background: #009fdb;
-	transition: background 500ms ease-in-out;
-	.title {
-		transition: opacity 375ms ease-in-out;
-		opacity: 0;
-		pointer-events: none;
-	}
-}
-
-.docked .ember-application .d-header {
-	margin-top: 0;
-	background: #1d2329;
-	.title {
-		opacity: 1;
-		pointer-events: auto;
-	}
-}
-
 .headline-wrapper {
 	position: relative;
 	color: white;
@@ -181,4 +160,8 @@ body textarea {
 
 .headline {
 	font-weight: 300;
+}
+
+#header {
+	background: #fff;
 }
