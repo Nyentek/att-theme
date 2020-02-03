@@ -45,9 +45,13 @@ body textarea {
 	position: relative;
 	color: white;
 	z-index: 1;
-	top: -14rem;
 	text-align: center;
 	pointer-events: none;
+	width: 100vw;
+	background-image: url("https://apimarket.att.com/assets/images/att-rtc7@2x.47d321ba2e79bd5bd35945028d284b36.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .headline {
@@ -88,7 +92,7 @@ body textarea {
 	top: 5.25rem;
 	left: 0;
 	right: 0;
-	z-index: 1;
+	z-index: 2;
 	box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.08);
 
 	.b-header {
@@ -104,6 +108,7 @@ body textarea {
 		.title {
 			position: fixed;
 			top: 0;
+
 			a {
 				color: #354052;
 			}
@@ -117,7 +122,6 @@ body textarea {
 
 		nav.links {
 			float: left;
-			margin-top: 0.5rem;
 
 			.rtl & {
 				float: right;
@@ -129,8 +133,11 @@ body textarea {
 
 			> li > a {
 				color: #354052;
-				&.active > a, > a.active {
-					background-color: $quaternary;
+				padding: 1rem 0;
+				border-bottom: solid 0.25rem transparent;
+
+				&:hover, &:active {
+					border-bottom-color: $quaternary;
 				}
 			}
 		}
