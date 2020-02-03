@@ -87,16 +87,13 @@ body textarea {
 	top: 5.25rem;
 	left: 0;
 	right: 0;
-	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.13);
+	z-index: 2;
+	background-color: #fff;
+	box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.08);
 
 	.b-header {
 		width: 100%;
-		background-color: #fff;
 		color: #354052;
-
-		.contents {
-			margin: 2rem 0;
-		}
 
 		.title {
 			position: fixed;
