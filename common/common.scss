@@ -41,29 +41,8 @@ body textarea {
 	box-shadow: none;
 }
 
-.headline-wrapper {
-	position: relative;
-	left: 50%;
-	transform: translateX(-50%);
-	color: white;
-	z-index: 1;
-	text-align: center;
-	pointer-events: none;
-	width: 100vw;
-	background-image: url("https://apimarket.att.com/assets/images/att-rtc7@2x.47d321ba2e79bd5bd35945028d284b36.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	box-sizing: border-box;
-	padding: 2rem;
-}
-
-.headline {
-	font-weight: 300;
-}
-
 .main {
-	background: #fbfcfc;
+	background: $secondary;
 }
 
 #main-outlet {
@@ -72,7 +51,7 @@ body textarea {
 
 .d-header {
 	height: 5.25rem;
-	background: #fff;
+	background: $header_background;
 	margin-top: 0 !important;
 	box-shadow: none;
 
@@ -90,7 +69,7 @@ body textarea {
 
 	.d-header-icons {
 		.d-icon {
-			color: #0568ae;
+			color: $quaternary;
 		}
 	}
 }
@@ -107,8 +86,8 @@ body textarea {
 	.b-header {
 		width: 100%;
 		height: unset;
-		background-color: #fff;
-		color: #354052;
+		background-color: $header_background;
+		color: $primary;
 
 		.contents {
 			margin: 0;
@@ -119,7 +98,7 @@ body textarea {
 			top: 0;
 
 			a {
-				color: #354052;
+				color: $primary;
 			}
 		}
 
@@ -141,13 +120,15 @@ body textarea {
 			margin-bottom: 0;
 
 			> li > a {
-				color: #354052;
+				color: $primary;
 				padding: 1rem 0;
 				border-bottom: solid 0.25rem transparent;
 				margin-right: 2rem;
+				font-size: 1rem;
 
 				&:hover, &:active {
 					border-bottom-color: $quaternary;
+					color: $primary;
 					background: transparent;
 				}
 			}
@@ -211,6 +192,33 @@ body textarea {
 			.rtl & {
 				float: left;
 			}
+		}
+	}
+}
+
+#banner {
+	background-image: url("https://apimarket.att.com/assets/images/att-rtc7@2x.47d321ba2e79bd5bd35945028d284b36.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	width: 100vw;
+	left: 50%;
+	transform: translateX(-50%);
+
+	.close {
+		box-shadow: none;
+
+		svg {
+			color: $secondary;
+		}
+	}
+
+	#banner-content {
+		text-align: center;
+		color: $secondary;
+		h1 {
+			font-weight: 400;
 		}
 	}
 }
