@@ -200,6 +200,7 @@ body textarea {
 }
 
 #banner {
+	background-color: $quaternary;
 	background-image: url("https://apimarket.att.com/assets/images/att-rtc7@2x.47d321ba2e79bd5bd35945028d284b36.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -213,7 +214,7 @@ body textarea {
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: unset;
-	background-color: $quaternary;
+	margin-bottom: 2rem;
 
 	.close {
 		position: absolute;
