@@ -240,3 +240,8 @@ body textarea {
 		}
 	}
 }
+
+.category-list, .topic-list, .latest-topic-list {
+	box-shadow: none;
+	background-color: transparent;
+}
