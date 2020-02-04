@@ -3,8 +3,48 @@
 $main-header-height: 5rem;
 $brand-header-height: 4rem;
 
+@font-face {
+	font-family: "ATT Aleck Sans";
+	font-weight: 300;
+	font-style: normal;
+	src: url($A300_woff2) format('woff2'),
+	url($A300_woff) format('woff');
+}
+
+@font-face {
+	font-family: "ATT Aleck Sans";
+	font-weight: 400;
+	font-style: normal;
+	src: url($A400_woff2) format('woff2'),
+	url($A400_woff) format('woff');
+}
+
+@font-face {
+	font-family: "ATT Aleck Sans";
+	font-weight: 400;
+	font-style: italic;
+	src: url($A400i_woff2) format('woff2'),
+	url($A400_woff) format('woff');
+}
+
+@font-face {
+	font-family: "ATT Aleck Sans";
+	font-weight: 500;
+	font-style: normal;
+	src: url($A500_woff2) format('woff2'),
+	url($A500_woff) format('woff');
+}
+
+@font-face {
+	font-family: "ATT Aleck Sans";
+	font-weight: 700;
+	font-style: normal;
+	src: url($A700_woff2) format('woff2'),
+	url($A700_woff) format('woff');
+}
+
 :root, html {
-	font-family: "Noto Sans", Verdana, sans-serif !important;
+	font-family: "ATT Aleck Sans", "Noto Sans", Verdana, sans-serif !important;
 	font-weight: 400;
 	font-size: 16px;
 	letter-spacing: -0.018em;
