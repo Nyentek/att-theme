@@ -119,7 +119,7 @@ body textarea {
 
 			> li > a {
 				color: $primary;
-				padding: 1.25rem 0;
+				padding: 1.125rem 0 1.25rem;
 				border-bottom: solid 0.25rem transparent;
 				margin-right: 2rem;
 				font-size: 1rem;
@@ -210,6 +210,9 @@ body textarea {
 	z-index: unset;
 
 	.close {
+		position: absolute;
+		top: 1.5rem;
+		right: 1rem;
 		box-shadow: none;
 
 		svg {
@@ -229,6 +232,7 @@ body textarea {
 
 		h1 {
 			font-weight: 400;
+			margin-bottom: 1rem;
 		}
 
 		p {
