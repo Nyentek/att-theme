@@ -54,7 +54,7 @@ body textarea {
 }
 
 #main-outlet {
-	padding-top: calc(#{$main-header-height} + #{$brand-header-height});
+	padding-top: calc(#{$main-header-height} + #{$brand-header-height} + 2rem);
 }
 
 .d-header {
@@ -215,6 +215,7 @@ body textarea {
 	transform: translateX(-50%);
 	z-index: unset;
 	margin-bottom: 2rem;
+	margin-top: -2rem;
 
 	.close {
 		position: absolute;
