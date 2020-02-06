@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38c8efe2-4088-4fa9-9957-184436613bf2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/about.json" beforeDir="false" afterPath="$PROJECT_DIR$/about.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/desktop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/desktop.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/mobile.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -64,6 +69,7 @@
       <workItem from="1578436020865" duration="50000" />
       <workItem from="1578436102442" duration="18000" />
       <workItem from="1578436128715" duration="445000" />
+      <workItem from="1581019612460" duration="784000" />
     </task>
     <servers />
   </component>
