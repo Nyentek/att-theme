@@ -17,7 +17,8 @@
     "A300_woff": "assets/A300_woff.woff",
     "A300_woff2": "assets/A300_woff2.woff2",
     "A500_woff2": "assets/A500_woff2.woff2",
-    "A700_woff2": "assets/A700_woff2.woff2"
+    "A700_woff2": "assets/A700_woff2.woff2",
+    "icons-sprite": "assets/att-icons.svg"
   },
   "color_schemes": {
     "AT&T": {
