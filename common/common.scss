@@ -305,10 +305,13 @@ body textarea {
 
 .user-menu {
 	.d-icon {
-		padding-top: 0;
-		margin-right: 1rem;
-		color: $tertiary;
 		width: 1.5rem;
 		height: 1.5rem;
+	}
+
+	.quick-access-panel li:not(.show-all) .d-icon {
+		margin-right: 1rem;
+		padding-top: 0;
+		color: $tertiary;
 	}
 }
