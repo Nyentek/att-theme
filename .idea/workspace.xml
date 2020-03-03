@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38c8efe2-4088-4fa9-9957-184436613bf2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.json" beforeDir="false" afterPath="$PROJECT_DIR$/about.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +40,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="ServiceViewManager">
@@ -70,7 +70,7 @@
       <workItem from="1578436128715" duration="445000" />
       <workItem from="1581019612460" duration="2609000" />
       <workItem from="1581446383343" duration="10263000" />
-      <workItem from="1583264240605" duration="213000" />
+      <workItem from="1583264240605" duration="591000" />
     </task>
     <servers />
   </component>
@@ -99,6 +99,10 @@
       <screen x="-811" y="-1669" width="3008" height="1669" />
     </state>
     <state x="345" y="-1188" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-811.-1669.3008.1669/0.23.1680.1027@-811.-1669.3008.1669" timestamp="1578436117381" />
+    <state x="634" y="-957" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583264804252">
+      <screen x="-627" y="-1669" width="3008" height="1669" />
+    </state>
+    <state x="634" y="-957" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1792.1097/-627.-1669.3008.1669@-627.-1669.3008.1669" timestamp="1583264804252" />
     <state x="386" y="-1196" key="SettingsEditor" timestamp="1583264402823">
       <screen x="-627" y="-1669" width="3008" height="1669" />
     </state>
