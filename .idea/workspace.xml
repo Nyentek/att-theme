@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38c8efe2-4088-4fa9-9957-184436613bf2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/about.json" beforeDir="false" afterPath="$PROJECT_DIR$/about.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/att-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/att-icons.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <workItem from="1578436128715" duration="445000" />
       <workItem from="1581019612460" duration="2609000" />
       <workItem from="1581446383343" duration="10263000" />
-      <workItem from="1583264240605" duration="591000" />
+      <workItem from="1583264240605" duration="667000" />
     </task>
     <servers />
   </component>
