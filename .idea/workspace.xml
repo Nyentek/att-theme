@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="38c8efe2-4088-4fa9-9957-184436613bf2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.json" beforeDir="false" afterPath="$PROJECT_DIR$/about.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -70,6 +70,7 @@
       <workItem from="1578436128715" duration="445000" />
       <workItem from="1581019612460" duration="2609000" />
       <workItem from="1581446383343" duration="10263000" />
+      <workItem from="1583264240605" duration="213000" />
     </task>
     <servers />
   </component>
@@ -98,10 +99,11 @@
       <screen x="-811" y="-1669" width="3008" height="1669" />
     </state>
     <state x="345" y="-1188" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-811.-1669.3008.1669/0.23.1680.1027@-811.-1669.3008.1669" timestamp="1578436117381" />
-    <state x="202" y="-1196" key="SettingsEditor" timestamp="1578438541693">
-      <screen x="-811" y="-1669" width="3008" height="1669" />
+    <state x="386" y="-1196" key="SettingsEditor" timestamp="1583264402823">
+      <screen x="-627" y="-1669" width="3008" height="1669" />
     </state>
     <state x="202" y="-1196" key="SettingsEditor/-811.-1669.3008.1669/0.23.1680.1027@-811.-1669.3008.1669" timestamp="1578438541693" />
+    <state x="386" y="-1196" key="SettingsEditor/0.23.1792.1097/-627.-1669.3008.1669@-627.-1669.3008.1669" timestamp="1583264402823" />
     <state x="542" y="-1281" width="670" height="676" key="search.everywhere.popup" timestamp="1581534125610">
       <screen x="-627" y="-1669" width="3008" height="1669" />
     </state>
