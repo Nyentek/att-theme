@@ -315,3 +315,25 @@ body textarea {
 		color: $tertiary;
 	}
 }
+
+.login-required h2 {
+	color: #7f8fA4;
+	font-weight: 500;
+}
+
+.login-button, .sign-up-button {
+	height: 36px;
+	width: 170px;
+	border-radius: 18px;
+}
+
+.sign-up-button {
+	background: transparent;
+	color: $primary;
+	border: solid 1px #CED0DA;
+}
+
+.login-button {
+	background: $quaternary;
+	margin-left: 20px;
+}

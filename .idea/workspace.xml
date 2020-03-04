@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38c8efe2-4088-4fa9-9957-184436613bf2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/att-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/att-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,8 @@
       <workItem from="1578436128715" duration="445000" />
       <workItem from="1581019612460" duration="2609000" />
       <workItem from="1581446383343" duration="10263000" />
-      <workItem from="1583264240605" duration="667000" />
+      <workItem from="1583264240605" duration="964000" />
+      <workItem from="1583360016871" duration="652000" />
     </task>
     <servers />
   </component>
@@ -108,6 +110,10 @@
     </state>
     <state x="202" y="-1196" key="SettingsEditor/-811.-1669.3008.1669/0.23.1680.1027@-811.-1669.3008.1669" timestamp="1578438541693" />
     <state x="386" y="-1196" key="SettingsEditor/0.23.1792.1097/-627.-1669.3008.1669@-627.-1669.3008.1669" timestamp="1583264402823" />
+    <state x="535" y="-1199" width="683" height="729" key="find.popup" timestamp="1583265354406">
+      <screen x="-627" y="-1669" width="3008" height="1669" />
+    </state>
+    <state x="535" y="-1199" width="683" height="729" key="find.popup/0.23.1792.1097/-627.-1669.3008.1669@-627.-1669.3008.1669" timestamp="1583265354406" />
     <state x="542" y="-1281" width="670" height="676" key="search.everywhere.popup" timestamp="1581534125610">
       <screen x="-627" y="-1669" width="3008" height="1669" />
     </state>
