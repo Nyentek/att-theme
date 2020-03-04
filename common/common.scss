@@ -60,7 +60,14 @@ body textarea {
 .btn, .btn-primary {
 	height: 36px;
 	border-radius: 18px;
+}
+
+button.btn, button.btn-primary {
 	padding: 0 24px 2px;
+}
+
+a.btn, a.btn-primary {
+	padding: 8px 24px 0;
 }
 
 .d-editor-button-bar .btn,
