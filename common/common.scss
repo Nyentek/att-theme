@@ -57,16 +57,10 @@ body textarea {
 	font-family: "ATT Aleck Sans", Verdana, sans-serif;
 }
 
-@mixin boxShadow {
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.12);
-}
-
-@mixin buttonShadow {
-	box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
-}
-
-.btn {
-	border-radius: 2px;
+.btn, .btn-primary {
+	height: 36px;
+	border-radius: 18px;
+	padding: 0 24px 2px;
 }
 
 .d-editor-button-bar .btn,
@@ -324,6 +318,10 @@ body textarea {
 	height: 36px;
 	width: 170px;
 	border-radius: 18px;
+}
+
+.discourse-no-touch static-login .btn-primary:hover {
+	background: $tertiary;
 }
 
 .sign-up-button {
