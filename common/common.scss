@@ -359,7 +359,9 @@ a.btn, a.btn-primary {
 			&:hover {
 				background: transparent;
 				color: $quaternary;
-				text-decoration: underline;
+				.d-button-label {
+					text-decoration: underline;
+				}
 			}
 		}
 		.sign-up-button {
@@ -369,11 +371,6 @@ a.btn, a.btn-primary {
 				pointer-events: none;
 				color: $primary;
 				text-decoration: none;
-			}
-			&:hover {
-				&::before {
-					text-decoration: none;
-				}
 			}
 		}
 		.login-button {
