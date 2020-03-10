@@ -355,6 +355,7 @@ a.btn, a.btn-primary {
 			height: unset;
 			width: unset;
 			color: $quaternary;
+			background: transparent;
 			&:hover {
 				background: transparent;
 				color: $quaternary;
@@ -363,12 +364,15 @@ a.btn, a.btn-primary {
 		}
 		.sign-up-button {
 			order: 2;
+			&::before {
+				content: ". Don't have an account? ";
+				pointer-events: none;
+				color: $primary;
+				text-decoration: none;
+			}
 		}
 		.login-button {
 			order: 1;
-			&::before {
-				content: "Don't have an account?"
-			}
 		}
 	}
 }
