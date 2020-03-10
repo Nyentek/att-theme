@@ -370,6 +370,11 @@ a.btn, a.btn-primary {
 				color: $primary;
 				text-decoration: none;
 			}
+			&:hover {
+				&::before {
+					text-decoration: none;
+				}
+			}
 		}
 		.login-button {
 			order: 1;
