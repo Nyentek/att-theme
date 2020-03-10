@@ -344,3 +344,31 @@ a.btn, a.btn-primary {
 		display: none;
 	}
 }
+
+.d-header {
+	.header-buttons {
+		.sign-up-button, .login-button {
+			display: inline;
+			padding: 0;
+			margin: 0;
+			border: 0;
+			height: unset;
+			width: unset;
+			color: $quaternary;
+			&:hover {
+				background: transparent;
+				color: $quaternary;
+				text-decoration: underline;
+			}
+		}
+		.sign-up-button {
+			order: 2;
+		}
+		.login-button {
+			order: 1;
+			&::before {
+				content: "Don't have an account?"
+			}
+		}
+	}
+}
