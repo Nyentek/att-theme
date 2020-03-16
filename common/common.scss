@@ -92,10 +92,6 @@ a.btn, a.btn-primary {
 	}
 }
 
-#main-outlet {
-	padding-top: calc(#{$main-header-height} + #{$brand-header-height} + 2rem);
-}
-
 .d-header {
 	height: $main-header-height;
 	background: $header_background;
@@ -104,6 +100,8 @@ a.btn, a.btn-primary {
 
 	.contents {
 		border-bottom: solid 1px #e6eaee;
+		flex-wrap: wrap;
+		height: unset;
 	}
 
 	.title {
@@ -120,13 +118,6 @@ a.btn, a.btn-primary {
 			font-size: 2.5rem;
 		}
 	}
-}
-
-#site-logo[alt]::after {
-	content: attr(alt);
-	color: $primary;
-	font-size: 1.25rem;
-	font-weight: 400;
 }
 
 .brand-header {

@@ -14,19 +14,6 @@
 	background-color 2s, transform 0.5s;
 }
 
-// make header icons semi-translucent
-.d-header-icons {
-	.d-icon {
-		color: rgba(
-						dark-light-choose(
-										scale-color($header_primary, $lightness: 50%),
-										$header_primary
-						),
-						0.7
-		);
-	}
-}
-
 //add shadow behind the list of topics on right in Category and Latest View
 //add shadow behind list of categories on left in Category and Latest View
 //add shadow behind topics in Latest view
@@ -117,7 +104,6 @@
 	position: fixed;
 	bottom: 30px;
 	right: 50px;
-	z-index: z("composer", "content") - 1;
 	background-color: $tertiary;
 	color: $secondary;
 	white-space: nowrap;
@@ -280,4 +266,8 @@
 
 #banner {
 	padding: 12rem 2rem;
+}
+
+#main-outlet {
+	padding-top: calc(#{$main-header-height} + #{$brand-header-height} + 2rem);
 }
