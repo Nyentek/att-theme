@@ -61,3 +61,14 @@
 	padding: 4rem 1rem;
 	margin: 0;
 }
+
+.d-header {
+	.panel {
+		position: unset;
+	}
+	.header-buttons {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
