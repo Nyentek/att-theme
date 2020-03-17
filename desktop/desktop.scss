@@ -1,5 +1,8 @@
 @import "common/foundation/variables";
 
+$main-header-height: 5rem;
+$brand-header-height: 4rem;
+
 @mixin boxShadow {
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.12);
 }
