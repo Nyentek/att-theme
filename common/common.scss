@@ -251,13 +251,13 @@ a.btn, a.btn-primary {
 	background-position: center;
 	box-sizing: border-box;
 	position: relative;
-	width: calc(100vw + 2px);
+	width: 100vw;
 	max-width: unset;
 	max-height: unset;
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: unset;
-	margin: -2rem -1px 2rem;
+	margin: -2rem 0 2rem;
 
 	.close {
 		display: none;
