@@ -50,6 +50,10 @@ $brand-header-height: 4rem;
 	line-height: 1.4142;
 }
 
+html {
+	overflow-y: auto;
+}
+
 body input,
 body button,
 body select,
