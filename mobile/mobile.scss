@@ -70,11 +70,14 @@
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);
-		width: 100%;
+		width: calc(100% - 1rem);
 		background: #e8ebf0;
 		padding: 0.5rem;
 		border-radius: 0.25rem;
 		justify-content: center;
 		top: 5.25rem;
+		&:empty {
+			display: none;
+		}
 	}
 }
