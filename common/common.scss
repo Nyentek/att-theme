@@ -52,6 +52,9 @@ $brand-header-height: 4rem;
 
 html {
 	overflow-y: overlay;
+	.wrap {
+		max-width: 1170px;
+	}
 }
 
 body input,
