@@ -386,4 +386,10 @@ a.btn, a.btn-primary {
 			order: 1;
 		}
 	}
+	.custom-header-links {
+		margin: 0;
+		.headerLink a {
+			padding: 1rem 0;
+		}
+	}
 }
